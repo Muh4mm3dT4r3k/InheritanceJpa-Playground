@@ -51,7 +51,10 @@ public class CustomPersistenceUnit implements PersistenceUnitInfo {
         return List.of(
                 "com.mohamed.singletable.entities.Vehicle",
                 "com.mohamed.singletable.entities.Motorbike",
-                "com.mohamed.singletable.entities.Car");
+                "com.mohamed.singletable.entities.Car",
+                "com.mohamed.joined.entities.Employee",
+                "com.mohamed.joined.entities.Manager",
+                "com.mohamed.joined.entities.Engineer");
     }
 
     @Override
